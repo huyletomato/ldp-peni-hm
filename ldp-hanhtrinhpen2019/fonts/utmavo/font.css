@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'UTM Avo';
+	src: url('./utmavo.eot');
+	src: local('UTM Avo'), url('./utmavo.woff') format('woff'), url('./utmavo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'UTM Avo Bold';
+    src: url('utm-avobold.eot');
+    src: local('☺'), url('utm-avobold.woff') format('woff'), url('utm-avobold.ttf') format('truetype'), url('utm-avobold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,636 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* -------------- UTM Bebas ---------------*/
+@font-face {
+    font-family: 'UTM Bebas';
+    font-style: normal;
+    font-weight: 400;
+    src: local('UTM Bebas'), url('../fonts/UTM-Bebas.woff') format('woff');
+}
+/* -------------- UTM Bebas ---------------*/
+img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    max-width: 100%;
+}
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edit img{
+    height: auto;
+}
+.edit{
+    color: #5b5b5b;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'UTM Avo';
+}
+.edit h1 {
+    font-size: 20px;
+    font-weight: normal
+}
+.edit h2 {
+    font-size: 18px;
+    font-weight: normal
+}
+.edit h3 {
+    font-size: 16px;
+    font-weight: bold
+}
+.edit h4 {
+    font-size: 14px;
+    font-weight: bold
+}
+.edit h5 {
+    font-size: 12px;
+    font-weight: bold
+}
+.edit h6 {
+    font-size: 11px;
+    font-weight: bold
+}
+.edit p{
+    margin-bottom: 18px;
+}
+
+.edit b{
+    font-weight: bold;
+}
+.edit i{
+    font-style: italic;
+}
+.edit td{
+    padding: 15px 5px;
+    border: 4px solid #ffffff;
+    vertical-align: middle;
+    background: #e0f6ff;
+}
+.st-td1{
+    background: #cef1ff !important;
+}
+.st-td2,.edit table span{
+    font-family: 'UTM Avo Bold';
+}
+.edit table{
+    text-align: center;
+    width: 100%;
+}
+
+.fix-edit-p p{
+    margin-bottom: 0;
+}
+.fix-edit-p{
+    margin-bottom: 25px;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+
+.clear {
+    clear:both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.grid{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.grid:before,.grid:after{
+    content: " ";
+    display: table;
+    width: 100%;
+}
+
+#page{
+    overflow: hidden;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    max-width: 1396px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+body{
+    font-family: Arial;
+}
+
+#header{
+    padding-top: 21px;
+    padding-bottom: 34px;
+}
+
+.logo{
+    padding-left: 60px;
+}
+.slogan{
+    text-align: center;
+    display: inline-block;
+    line-height: 1.3;
+    padding-top: 28px;
+}
+.slogan h1{
+    font-family: 'UTM Avo Bold';
+    color: #2481c0;
+    font-size: 25px;
+}
+.slogan h2{
+    font-family: 'UTM Avo';
+    color: #292929;
+    font-size: 17px;
+}
+.main-menu{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.main-menu li{
+    width: 100%;
+    text-align: center;
+    font-family: 'UTM Avo Bold';
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main-menu li  a{
+    color: #ffffff;
+    display: block;
+    padding: 25px 0;
+}
+.menu-st1{
+    background: #2481c0;
+}
+.menu-st2{
+    background: #ffb719;
+}
+
+.menu-st3{
+    background: #2baadc;
+}
+
+.menu-st4{
+    background: #f27234;
+}
+
+.title-item-tab{
+    text-align: center;
+    font-size: 80px;
+    color: #f27234;
+    font-family: 'UTM Bebas';
+    margin-bottom: 45px;
+}
+
+.title-item-tab span{
+    color: #2481c0;
+}
+
+.main-item-tab{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 55px;
+}
+
+.title-s1{
+    background: #f27234 url("../images/title-s1-icon.png") no-repeat;
+    background-position: 10px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'UTM Avo Bold';
+    line-height: 34px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.wapper-list-edit{
+    font-size: 16px;
+    font-family: 'UTM Avo';
+    padding: 0 53px;
+}
+
+.wapper-list-edit li{
+    position: relative;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.wapper-list-edit li:before{
+    content: " ";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -25px;
+    background: url(../images/icon-list.png) no-repeat;
+    top: 5px;
+}
+.wapper-list-edit2{
+    margin-bottom: 25px;
+}
+.wapper-list-edit2 ul{
+    list-style-type: inherit;
+    list-style-position: inside;
+    text-indent: 35px;
+}
+
+.wapper-list-edit3{
+    font-family: 'UTM Avo';
+    font-size: 16px;
+    padding: 0 53px;
+}
+
+.wapper-list-edit3 li{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.wapper-list-edit3 li:before{
+    content: " ";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -25px;
+    background: url(../images/icon-list.png) no-repeat;
+    top: 3px;
+}
+
+.wapper-list-edit3 li span{
+    font-family: 'UTM Avo Bold';
+}
+
+.nav-footer{
+
+}
+
+.nav-footer ul{
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-footer ul a{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'UTM Avo Bold';
+}
+
+#footer{
+    line-height: 60px;
+    background: #646464;
+}
+
+.footer{
+    padding: 0 120px;
+}
+.wapper-form-landing{
+    background: #2481c0;
+    padding-top: 12px;
+    padding-bottom: 27px;
+    margin-bottom: 35px;
+}
+.title-form{
+    font-size: 18px;
+    font-family: 'UTM Avo Bold';
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+.main-form-landing{
+    padding-left: 48px;
+    padding-right: 34px;
+}
+
+.row-form input{
+    background: #2481c0;
+    border: 1px solid #ffffff;
+    width: 100%;
+    line-height: 47px;
+    color: #ffffff;
+    font-family: 'UTM Avo';
+    padding: 0 20px;
+    border-radius: 40px;
+}
+.row-form select{
+    background: #2481c0;
+    border: 1px solid #ffffff;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'UTM Avo';
+    padding: 9px 20px 11px;
+    border-radius: 40px;
+}
+.row-form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+}
+
+.row-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ffffff;
+}
+
+.row-form input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ffffff;
+}
+.row-form{
+    margin-bottom: 12px;
+}
+.wapper-main-landing {
+    position: relative;
+    margin-right: -30px;
+}
+
+.row-form-submit button {
+    height: 56px;
+    background: #ffb719;
+    border: none;
+    font-family: 'UTM Avo Bold';
+    color: #ffffff;
+    width: 100%;
+    font-size: 16px;
+    -webkit-box-shadow: 0 8px #f27234;
+    box-shadow: 0 8px #f27234;
+    transition: 0.2s;
+}
+.row-form-submit button:hover{
+    background: #f27234;
+    -webkit-box-shadow: 0 8px #d2672f;
+    box-shadow: 0 8px #d2672f;
+}
+.row-form-submit{
+    padding: 0 7px;
+}
+
+.icon-hotline{
+    width: 96px;
+    height: 96px;
+    background: #ffffff url("../images/icon-phone.png") no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+.main-hotline:hover .icon-hotline{
+    transform: rotate(25deg);
+}
+.main-hotline{
+    background: #ffb719;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-family: 'UTM Avo Bold';
+    position: relative;
+}
+
+.main-hotline:before{
+    content: '';
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 25px solid #ffb719;
+    position: absolute;
+    top: -25px;
+    margin-left: -10px;
+    left: 51px;
+}
+
+.wapper-hotline{
+    padding-left: 24px;
+    padding-right: 34px;
+    margin-bottom: 40px;
+}
+
+.header-hotline{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+}
+.phone-hotline{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.phone-hotline a{
+    color: #ffffff;
+}
+.content-hotline{
+    float: left;
+    width: calc(100% - 116px);
+}
+
+.grid-image{
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.col-gird-image{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.col-gird-image img{
+    width: 100%;
+}
+
+.slider-edit{
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.slider-edit-nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 59px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.right-slider-edit-nav{
+    background: url("../images/next.png") no-repeat;
+    background-position: center;
+    right: 0;
+}
+.left-slider-edit-nav{
+    background: url("../images/prev.png") no-repeat;
+    background-position: center;
+    left: 0;
+}
+.ll-skin-vigo .ui-datepicker-header{
+    background: #ffb719;
+}
+
+.mess-error{
+    color: #f27234;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        text-align: center;
+        padding-left: 0;
+    }
+    .logo img{
+        max-width: 273px;
+    }
+    .slogan{
+        display: none;
+    }
+    .wapper-main-landing{
+        margin-right: 0;
+    }
+    .main-page{
+        position: relative;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .main-item-tab{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 25px;
+    }
+    .title-item-tab{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .footer{
+        padding: 0;
+    }
+    #footer{
+        line-height: 30px;
+        padding: 10px 0;
+    }
+    .nav-footer ul{
+        display: block;
+    }
+    .wapper-hotline{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .slider-edit{
+        padding: 0;
+    }
+    .main-form-landing{
+        padding-left: 34px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .main-menu li{
+        font-size: 12px;
+    }
+    .wapper-list-edit li{
+        width: 100%;
+    }
+    .nav-footer ul a{
+        font-size: 12px;
+    }
+    .title-s1{
+        font-size: 12px;
+    }
+    .row-form-submit{
+        padding: 0;
+    }
+    .wapper-list-edit3{
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .title-s1{
+        font-size: 12px;
+    }
+    .main-menu li{
+        font-size: 10px;
+    }
+    .phone-hotline{
+        font-size: 24px;
+    }
+    .title-item-tab{
+        font-size: 40px;
+    }
+}
