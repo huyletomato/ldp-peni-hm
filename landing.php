@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php
-        $v = "1.0.9";
+        $v = "1.0.1";
         /*
          * Print the <title> tag based on what is being viewed.
          */
@@ -61,34 +61,34 @@
         <div id="highlight" class="highlight">
             <div class="container">
                 <div class="wrapper">
-                    <div class="img-box-1" style="    background: url(<?php echo plugin_dir_url( __FILE__ ) ?>images/img-hanh-trinh.png) center no-repeat;">
-                        <div class="hl-title"><span>HÀNH TRÌNH</span> <span>PEN</span></div>
-                        <div class="hl-text">
-                            <span>TRUY TÌM KHO BÁU</span>
-                            <span>TRI THỨC</span>
-                        </div>
+                    <div class="img-box-1">
+                        <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/img-p.png" alt="" class="img-responsive mauto">
                         <div class="hl-address">
-                            <span>7h30 ngày 27/05/2018</span>
-                            <span>Tại Nhà Thi Đấu Quận Lorem ipsum</span>
+                            <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/address.png" alt="" class="img-responsive mauto">
+<!--                            <span>7h30 ngày 27/05/2018</span>-->
+<!--                            <span>Tại Nhà Thi Đấu Quận Lorem ipsum</span>-->
+                        </div>
+                        <div class="hl-bgradius">
+                            <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/bg-bgradius.png" alt="" class="img-responsive mauto">
                         </div>
                     </div>
                     <div class="bg-radius">
                         <div class="row m5">
                             <div class="col-sm-4 p5">
-                                <div class="bg-radius-item bg-radius-item-1 hvr-float-shadow">
+                                <div class="bg-radius-item bg-radius-item-1">
                                     <div>
                                         <div class="title">
-                                            <span>Giao lưu trực tiếp</span>
-                                            <span>cùng các Thầy, Cô HOCMAI</span>
+                                            <span>SỜ TẬN TAY</span>
+                                            <span>CÁC THẦN TƯỢNG</span>
                                         </div>
                                         <div class="des">
-                                            Được tư vấn mọi thông tin hữu ích trong kì thi THPT quốc gia
+                                            Nhận tư vấn các thông tin hữu ích cho kỳ thi THPT quốc gia; Giải câu đố nhận chìa khóa vàng tri thức; Chụp ảnh & xin chữ ký
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4 p5">
-                                <div class="bg-radius-item bg-radius-item-middle hvr-float-shadow">
+                                <div class="bg-radius-item bg-radius-item-middle">
                                     <div>
                                         <div class="title">
                                             <span>Hàng ngàn</span>
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-4 p5">
-                                <div class="bg-radius-item bg-radius-item-3 hvr-float-shadow">
+                                <div class="bg-radius-item bg-radius-item-3">
                                     <div>
                                         <div class="title">
                                             <span>Teambuiding</span>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="cta cta-1 button">
                         <a class="hvr-float-shadow back_down bgcta" href="#back_down" title="">
-                            <span class="span1">CHỈ 350 SUẤT</span> <br>
+                            <span class="span1">CHỈ 350 VÉ</span> <br>
                             <span class="span2">ĐĂNG KÍ NGAY</span>
                         </a>
                     </div>
@@ -129,12 +129,11 @@
     <div class="box-2">
         <div class="container">
             <div class="title">
-                <span><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/pin.png" class="img-responsive" alt=""/></span>
+<!--                <span><img src="--><?php //echo plugin_dir_url( __FILE__ ) ?><!--images/pin.png" class="img-responsive" alt=""/></span>-->
                 <div class="bg-title-re">
-                    <span class="">ĐĂNG KÍ TRỞ THÀNH</span>
-                    <span class="">CHIẾN BINH DŨNG CẢM <b>TRONG HÀNH TRÌNH PEN</b></span>
+                    <span class="">ĐĂNG KÍ TRỞ THÀNH CHIẾN BINH </span>
                 </div>
-                <span class="hidden-480"><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/sao.png" class="img-responsive" alt=""/></span>
+<!--                <span class="hidden-480"><img src="--><?php //echo plugin_dir_url( __FILE__ ) ?><!--images/sao.png" class="img-responsive" alt=""/></span>-->
             </div>
         </div>
     </div>
@@ -207,12 +206,48 @@
                             <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/agenda.png" alt="" class="img-responsive mauto">
                         </div>
                         <div class="title">
-                            Agenda sự kiện
+                            Hành trình PEN<br>
+                            TRUY TÌM KHO BÁU KIẾN THỨC
                         </div>
-                        <div class="register-map">
-                            <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/map.png" alt="" class="img-responsive mauto">
+                        <div class="des" style="color: #6e2f17;font-weight: 500;">
+                            Thời gian: 7h30 -12h00 chủ nhật ngày 27/5 <br>
+                            Tại: Nhà Văn Hóa quận Thanh Xuân, Hà Nội
                         </div>
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>7h30 - 8h00:</td>
+                                <td>Ghi danh sự kiện</td>
+                            </tr>
+                            <tr>
+                                <td>8h00 - 08h45:</td>
+                                <td>Khởi động chương trình</td>
+                            </tr>
+                            <tr>
+                                <td>8h45 - 09h15:</td>
+                                <td>Tư vấn lộ trình học tập tại 4 trại chiến binh</td>
+                            </tr>
+                            <tr>
+                                <td>9h15 - 9h45:</td>
+                                <td>Trả lời câu đố & nhận chìa khóa vàng</td>
+                            </tr>
+                            <tr>
+                                <td>09h45 - 10h00:</td>
+                                <td>Lắng nghe lời dặn dò từ các thầy cô</td>
+                            </tr>
+                            <tr>
+                                <td>10h00 - 11h00:</td>
+                                <td>Teambuilding & nhận kho báu</td>
+                            </tr>
+                            <tr>
+                                <td>11h00 - 11h30</td>
+                                <td>Chụp hình cùng thần tượng</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -222,8 +257,11 @@
             <div class="row title">
                 <div class="col-sm-12">
                     <div class="bg-title-re">
-                        <span class="">GẶP GỠ THẦY, CÔ</span>
-                        <span class="">NGƯỜI GIỮ CHÌA KHÓA TRI THỨC</span>
+                        <div>
+                            <span class="">BẠN SẼ LÀ CHIẾN BINH</span>
+                            <span class="">CỦA TRẠI NÀO?</span>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -232,10 +270,10 @@
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
-                                <a href="#back_down" class="back_down" title=""><h3>trại chiến binh 1</h3></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh" title=""><h3>trại chiến binh 1</h3></a>
                             </div>
                             <div class="avatar">
-                                <a href="#back_down" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-1.png" class="img-responsive mauto" alt=""/></a>
+                                <a href="#" data-toggle="modal" data-target="#trai-chien-binh" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-1.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -309,22 +347,87 @@
     <!--    <span class="ico_up"></span>-->
     <!--</div>-->
     <!-- Modal -->
-    <div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+    <div class="modal fade trai-chien-binh" id="trai-chien-binh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="tcb-pd">
+                        <div class="tcb-title">TRẠI CHIẾN BINH 1</div>
+                        <div class="tcb-des">
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/lbtp.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Lê Bá Trần Phương</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh nổi tiếng với bí quyết "chỉ cần thay số là được 8 điểm" và 3 tuyệt chiêu đặc biệt: "Chậm - Kĩ - Chắc" trong môn Toán.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/nnh.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Nguyễn Ngọc Hải</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh "khó tính" với vũ khí vi diệu: Tư duy toán học trong giải các bài toán Vật lí cùng tuyệt kĩ giảng "nhanh nhưng không lướt".
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/nna.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Nguyễn Ngọc Anh</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh Xman tiên phong trong phương pháp "Mạng Nhện" thần chưởng, có khả năng xử gọn mọi logic Hóa học.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/ntc.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Nguyễn Thành Công</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh "soái ca vui tính" cực hài hước, hóm hỉnh nhưng chi tiết, tỉ mỉ khiến đối phương dễ phải lòng môn Sinh học.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta-1">
+                        <button class="hvr-float-shadow modal_open bgcta" data-dismiss="modal">
+                            <span class="span2">Đóng</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bg-gach" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="popup">
-                        <span class="remove" data-dismiss="modal"></span>
                         <div class="title">Chúc mừng <br/> bạn đã đăng kí thành công</div>
-
-
-
-
-
                         <div class="text"><p>Chúc mừng bạn đã trở thành chiến binh dũng cảm tại hành trình PEN</p>
-                            <p>Hẹn gặp lại vào sự kiện "truy tìm kho báu kiến thức" vào 7h30 tại...</p>
+                            <p>Hẹn gặp lại vào sự kiện "truy tìm kho báu kiến thức" vào 7h30 ngày 27/5
+                                tại Nhà Văn Hóa quận Thanh Xuân (Hà Nội).</p>
                             Bạn vui lòng kiểm tra email của mình để nhận mã xác nhận tham gia chương trình. Khi đến tham gia chương trình, bạn vui lòng đọc mã xác nhận tham gia của mình để được vào cửa miễn phí</div>
 
+                    </div>
+                    <div class="cta-1">
+                        <button class="hvr-float-shadow modal_open bgcta" data-dismiss="modal">
+                            <span class="span2">Đóng</span>
+                        </button>
                     </div>
                 </div>
             </div>
