@@ -281,30 +281,30 @@
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
-                                <a href="#back_down" class="back_down" title=""><h3>trại chiến binh 2</h3></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-2" title=""><h3>trại chiến binh 2</h3></a>
                             </div>
                             <div class="avatar">
-                                <a href="#back_down" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-2.png" class="img-responsive mauto" alt=""/></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-2" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-2.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
-                                <a href="#back_down" class="back_down" title=""><h3>trại chiến binh 3</h3></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-3" title=""><h3>trại chiến binh 3</h3></a>
                             </div>
                             <div class="avatar">
-                                <a href="#back_down" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-3.png" class="img-responsive mauto" alt=""/></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-3" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-3.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
-                                <a href="#back_down" class="back_down" title=""><h3>trại chiến binh 4</h3></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-4" title=""><h3>trại chiến binh 4</h3></a>
                             </div>
                             <div class="avatar">
-                                <a href="#back_down" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-4.png" class="img-responsive mauto" alt=""/></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-4" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-4.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
