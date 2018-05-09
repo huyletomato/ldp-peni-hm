@@ -164,6 +164,8 @@ class PageTemplater {
 
 add_action( 'plugins_loaded', array( 'PageTemplater', 'get_instance' ) );
 
+
+
 //----------
 define('LIMIT', 12);
 require_once dirname( __FILE__ ) . '/hmfunctions/setup-functions.php';
@@ -177,3 +179,14 @@ function sb_admin_style_and_script() {
     wp_localize_script('submit-ajax', 'sb_admin_ajax', array('url' => admin_url('admin-ajax.php')));
 }
 add_action('wp_enqueue_scripts', 'sb_admin_style_and_script');
+add_action( 'wp_footer', 'show_modal_cf7' );
+
+function show_modal_cf7() {
+    ?>
+    <script type="text/javascript">
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+            $('#success').modal('show');
+        }, false );
+    </script>
+    <?php
+}
