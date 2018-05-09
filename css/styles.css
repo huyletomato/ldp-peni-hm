@@ -580,10 +580,14 @@ main .modal-body {
     border-radius: 4px;
     cursor: auto;
     background: none;
-    color: #fff;
+    color: #333;
     font-size: 16px;
 }
+.screen-reader-response{
+    display: none;
+}
 .register .form-group {
+    margin: 0;
     margin-bottom: 15px;
 }
 .register .form-horizontal .control-label {
@@ -809,7 +813,7 @@ main .modal-body {
     /*padding-top: 15px;*/
 }
 .highlight .cta-1 .bgcta {
-    margin-top: -38px;
+    /*margin-top: -38px;*/
     position: relative;
     z-index: 99;
     padding: 35px 18px;
@@ -1122,7 +1126,25 @@ main .modal-body {
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ffffff;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ffffff;
 }
+.register .cta-1 .span2 {
+    background: none;
+    border: none;
+    padding: 15px;
+}
 @media screen and (max-width: 1199px) {
+    .box-1:before {
+        display: none;
+    }
+    .register .table-responsive {
+        left: -105px;
+    }
+    .register form {
+        right: -40px;
+        position: relative;
+    }
+    .gioi-thieu-thay-co .max-width {
+         top: 0;
+    }
     .slick-next {
         right: 0 !important;
         z-index: 99;
@@ -1139,7 +1161,7 @@ main .modal-body {
         margin: 0;
     }
     .gioi-thieu-thay-co .text {
-        top: 92px;
+        top: 85px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -1195,17 +1217,25 @@ main .modal-body {
     }
     .register form {
         margin: 0 auto;
+        right: 0;
     }
     .register .table-responsive {
         clear: both;
-        max-width: 500px;
         margin: 0 auto;
         border: none;
+        left: 0;
+        top: 15px;
     }
     .register .button .nut {
         margin: 0 auto 40px;
         position: relative;
         z-index: 99;
+    }
+    .gioi-thieu-thay-co .bg-title-re:after,.gioi-thieu-thay-co:before,.gioi-thieu-thay-co:after{
+        display: none;
+    }
+    .register .max-width {
+        left: 0;
     }
     html,
     body {
@@ -1253,11 +1283,11 @@ main .modal-body {
         background-size: 600px 100%;
         font-size: 24px;
         height: 90px;
-        padding-top: 12px;
+        /*padding-top: 12px;*/
     }
     .img-box-1 {
         background-size: 590px auto !important;
-        height: 327px;
+        /*height: 327px;*/
     }
     .hl-title {
         font-size: 34px;
@@ -1276,6 +1306,7 @@ main .modal-body {
     }
     .img-box-1,.bg-radius {
         margin-top: 0;
+        left: 0;
     }
     /*.full_page {*/
     /*background: url(../images/bg-box-1.jpg) center top no-repeat, url(../images/bg-box-2.jpg) left bottom no-repeat;*/
@@ -1341,6 +1372,7 @@ main .modal-body {
     }
     .register .table-responsive {
         margin-top: 70px;
+        left: -45px;
     }
     .register .button .nut {
         margin: 0 auto -30px;
@@ -1451,12 +1483,19 @@ main .modal-body {
     .box-2 .title img {
         max-width: 60px;
     }
+    .hl-bgradius{
+        display: none;
+    }
+    .img-box-1 > img {
+         padding-right: 0;
+    }
 }
 @media screen and (max-width: 639px) {
     .img-box-1 {
         background-size: 440px auto !important;
-        height: 280px;
+        /*height: 280px;*/
     }
+
     .hl-title span{
         display: block;
     }
@@ -1474,7 +1513,7 @@ main .modal-body {
     }
     .hl-address {
         font-size: 14px;
-        padding: 17px 0 0 50px;
+        padding: 17px 0 0 0;
     }
     .logo img {
         width: 80px;
@@ -1487,7 +1526,7 @@ main .modal-body {
         width: 100%;
     }
     .bg-radius-item>div {
-        padding: 10px 15px;
+        padding: 20px 15px;
     }
     .bg-radius-item .des {
         padding: 0 0px 0 45px;
@@ -1500,11 +1539,35 @@ main .modal-body {
         background-size: 440px 100%;
         font-size: 18px;
         height: 80px;
-        padding-top: 15px;
+        /*padding-top: 15px;*/
     }
     .register .table-responsive {
         width: 100%;
+        padding: 0 19px 0 30px;
+        left: 0;
     }
+    .col-md-6.col-md-pull-6.p20{
+        padding: 0;
+    }
+    .trai-chien-binh .modal-body {
+        width: 100%;
+        height: inherit;
+        padding-bottom: 70px;
+    }
+    .tcb-title {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .trai-chien-binh .modal-content {
+        height: inherit;
+    }
+    .trai-chien-binh .modal-dialog {
+        margin-top: 30px;
+    }
+    .tcb-pd {
+        padding: 0 10px 0 30px;
+    }
+
     .gioi-thieu-thay-co .bg-title-re {
         width: 100%;
         height: 80px;
@@ -1529,7 +1592,7 @@ main .modal-body {
     }
     .img-box-1 {
         background-size: 360px auto !important;
-        height: 220px;
+        /*height: 220px;*/
     }
     .header {
         position: absolute;
@@ -1537,7 +1600,7 @@ main .modal-body {
     }
     .hl-title {
         font-size: 20px;
-        padding: 50px 0px 5px 35px;
+        /*padding: 50px 0px 5px 35px;*/
     }
     .hl-text {
         font-size: 20px;
@@ -1545,7 +1608,7 @@ main .modal-body {
     }
     .hl-address {
         font-size: 13px;
-        padding: 14px 0 0 30px;
+        /*padding: 14px 0 0 30px;*/
     }
     .bg-radius-item .title {
         float: none;
@@ -1587,6 +1650,7 @@ main .modal-body {
     }
     .bg-radius-item {
         display: block;
+        height: auto;
     }
     .box-2 .title >span:nth-child(1) {
         display: none;
@@ -1603,9 +1667,9 @@ main .modal-body {
         display: block;
     }
     .bg-title-re {
-        padding-top: 35px;
-        height: 120px;
-        margin-top: -50px;
+        padding-top: 28px;
+        /*height: 120px;*/
+        /*margin-top: -50px;*/
     }
     .cta-1 .bgcta {
         position: relative;
@@ -1639,7 +1703,11 @@ main .modal-body {
         display: none;
     }
     .gioi-thieu-thay-co .bg-title-re {
-        padding-top: 17px;
+        padding-top: 5px;
+        margin-top: 50px;
+    }
+    .tcb-pd {
+        padding: 0 10px 0 0;
     }
     .address{
         margin: 10px -15px;
@@ -1708,8 +1776,23 @@ main .modal-body {
         font-size: 14px;
         padding-left: 0;
     }
+    .tcb-item-title {
+        font-size: 13px;
+    }
+    .tcb-item-des {
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 360px) {
+    .highlight .cta-1 .bgcta {
+        width: 280px;
+        height: 130px;
+        background-size: 100%;
+        padding: 22px 18px;
+    }
+    .cta-1 .span2 {
+        font-size: 24px;
+    }
     #myModal .modal-body {
         position: relative;
         padding: 45px 20px;

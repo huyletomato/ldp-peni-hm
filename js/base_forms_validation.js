@@ -50,7 +50,7 @@ var BaseFormValidation = function() {
             errorClass: 'help-block animated fadeInDown',
             errorElement: 'div',
             errorPlacement: function(error, e) {
-                jQuery(e).parents('.form-group > div').append(error);
+                jQuery(e).parents('.form-group > span').append(error);
             },
 
             highlight: function(e) {
