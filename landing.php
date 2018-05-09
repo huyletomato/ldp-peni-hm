@@ -141,8 +141,9 @@
         <div class="container">
             <div class="row max-width m20">
                 <div class="col-md-6 col-md-push-6 p20">
+                    <?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
 
-                    <form id="form-landingpage" class="js-validation-bootstrap form-horizontal" action="" method="post">
+                    <!--<form id="form-landingpage" class="js-validation-bootstrap form-horizontal" action="" method="post">
                         <div class="form-group">
                             <div class="col-sm-12">
                                 <input class="form-control fullname" type="text" name="fullname" placeholder="Họ và Tên (*)" required>
@@ -177,10 +178,10 @@
                                 <select id="city-form" class="js-select2 form-control" name="city" style="width: 100%;" data-placeholder="Chọn Tỉnh/Tp (*)">
                                     <option></option>
                                     <?php
-                                    $getCity = getCity(-1);
+/*                                    $getCity = getCity(-1);
                                     foreach ($getCity as $item){
                                         echo '<option value="'.$item->id.'">'.$item->name.'</option>';
-                                    } ?>
+                                    } */?>
                                 </select>
                             </div>
                         </div>
@@ -198,7 +199,7 @@
 
                             </div>
                         </div>
-                    </form>
+                    </form>-->
                 </div>
                 <div class="col-md-6 col-md-pull-6 p20">
                     <div class="table-responsive">
