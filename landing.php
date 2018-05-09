@@ -141,7 +141,7 @@
         <div class="container">
             <div class="row max-width m20">
                 <div class="col-md-6 col-md-push-6 p20">
-                    <?php echo do_shortcode('[contact-form-7 id="9" html_id="form-landingpage" html_class="js-validation-bootstrap form-horizontal" title="Contact form 1"]'); ?>
+                    <?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
 
                     <!--<form id="form-landingpage" class="js-validation-bootstrap form-horizontal" action="" method="post">
                         <div class="form-group">

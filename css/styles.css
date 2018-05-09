@@ -575,7 +575,7 @@ main .modal-body {
     margin-top: -10px;
 }
 .register form .form-control {
-    height: 52px;
+    height: 50px;
     border: 1px solid #333;
     border-radius: 4px;
     cursor: auto;
@@ -1131,6 +1131,16 @@ main .modal-body {
     border: none;
     padding: 15px;
 }
+.wpcf7-form-control-wrap {
+    position: relative;
+    display: block;
+}
+.wpcf7-not-valid-tip {
+    position: absolute;
+    left: 0;
+    color: #de1919;
+    font-size: 12px;
+}
 @media screen and (max-width: 1199px) {
     .box-1:before {
         display: none;
@@ -1143,7 +1153,7 @@ main .modal-body {
         position: relative;
     }
     .gioi-thieu-thay-co .max-width {
-         top: 0;
+        top: 0;
     }
     .slick-next {
         right: 0 !important;
@@ -1487,7 +1497,7 @@ main .modal-body {
         display: none;
     }
     .img-box-1 > img {
-         padding-right: 0;
+        padding-right: 0;
     }
 }
 @media screen and (max-width: 639px) {
