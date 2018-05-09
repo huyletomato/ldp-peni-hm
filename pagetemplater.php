@@ -190,3 +190,8 @@ function show_modal_cf7() {
     </script>
     <?php
 }
+function create_id() {
+    $now = time();
+    return 'P' . $now;
+}
+add_shortcode('pen_id', 'create_id');
