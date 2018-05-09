@@ -191,6 +191,7 @@ function show_modal_cf7() {
     <?php
 }
 function create_id() {
+    return 'hello';
     $now = time();
     return 'P' . $now;
 }
