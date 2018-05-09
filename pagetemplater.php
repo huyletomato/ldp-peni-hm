@@ -192,6 +192,7 @@ function show_modal_cf7() {
 }
 function create_id() {
     $now = time();
+    $id = substr($now,-4,4);
     return 'P' . $now;
 }
 add_shortcode('pen_id', 'create_id');
