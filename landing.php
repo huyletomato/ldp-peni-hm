@@ -142,64 +142,6 @@
             <div class="row max-width m20">
                 <div class="col-md-6 col-md-push-6 p20">
                     <?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]'); ?>
-
-                    <!--<form id="form-landingpage" class="js-validation-bootstrap form-horizontal" action="" method="post">
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <input class="form-control fullname" type="text" name="fullname" placeholder="Họ và Tên (*)" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <input type="text" class="form-control" placeholder="Email nhận vé (*)" name="email" role="button" data-toggle="popover" data-trigger="focus" data-content="Vé mời tham dự chương trình sẽ được gửi đến email của bạn. Vui lòng điền chính xác thông tin để nhận được vé">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <select id="class-form" class="js-select2 form-control" name="class" style="width: 100%;" data-placeholder="Chọn lớp (*)">
-                                    <option></option>
-                                    <option value="11">Lớp 11</option>
-                                    <option value="12">Lớp 12</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <input type="text" class="form-control" placeholder="Trường" name="school">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <input type="text" class="form-control phone" name="phone" placeholder="Số điện thoại (*)" required>
-                            </div>
-                        </div>
-                        <div class="form-group form-group-last">
-                            <div class="col-sm-12">
-                                <select id="city-form" class="js-select2 form-control" name="city" style="width: 100%;" data-placeholder="Chọn Tỉnh/Tp (*)">
-                                    <option></option>
-                                    <?php
-/*                                    $getCity = getCity(-1);
-                                    foreach ($getCity as $item){
-                                        echo '<option value="'.$item->id.'">'.$item->name.'</option>';
-                                    } */?>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="button">
-                            <div class="col-sm-12  cta-1">
-                                <button  class="hvr-float-shadow modal_open bgcta" type="submit" name="submit">
-                                    <span class="span2">ĐĂNG KÍ NGAY</span>
-                                </button>
-                                <!--                                <div class="cta cta-1 button">-->
-                                <!--                                    <a class="hvr-float-shadow back_down" data-toggle="modal" data-target="#myModal-thong-bao" title="">-->
-                                <!--                                        <span class="span1">CHỈ 350 SUẤT</span> <br>-->
-                                <!--                                        <span class="span2">ĐĂNG KÍ NGAY</span>-->
-                                <!--                                    </a>-->
-                                <!--                                </div>-->
-
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </form>-->
                 </div>
                 <div class="col-md-6 col-md-pull-6 p20">
                     <div class="table-responsive">
@@ -742,10 +684,7 @@
 <![endif]-->
 
 
-<!--<script src="--><?php //echo plugin_dir_url( __FILE__ ) ?><!--js/jquery-2.1.4.min.js"></script>-->
-<!--<script src="--><?php //echo plugin_dir_url( __FILE__ ) ?><!--js/bootstrap.min.js"></script>-->
-<!--<script src="--><?php //echo plugin_dir_url( __FILE__ ) ?><!--js/jquery-ui-1.10.1.min.js"></script>-->
-<!--<script src="--><?php //echo plugin_dir_url( __FILE__ ) ?><!--js/javascript.js"></script>-->
+
 </body>
 
 </html>
