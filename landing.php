@@ -197,9 +197,9 @@
                                 <!--                                    </a>-->
                                 <!--                                </div>-->
 
-                            </div>
-                        </div>
-                    </form>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
                 </div>
                 <div class="col-md-6 col-md-pull-6 p20">
                     <div class="table-responsive">
@@ -281,30 +281,30 @@
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
-                                <a href="#back_down" class="back_down" title=""><h3>trại chiến binh 2</h3></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-2" title=""><h3>trại chiến binh 2</h3></a>
                             </div>
                             <div class="avatar">
-                                <a href="#back_down" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-2.png" class="img-responsive mauto" alt=""/></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-2" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-2.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
-                                <a href="#back_down" class="back_down" title=""><h3>trại chiến binh 3</h3></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-3" title=""><h3>trại chiến binh 3</h3></a>
                             </div>
                             <div class="avatar">
-                                <a href="#back_down" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-3.png" class="img-responsive mauto" alt=""/></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-3" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-3.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
-                                <a href="#back_down" class="back_down" title=""><h3>trại chiến binh 4</h3></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-4" title=""><h3>trại chiến binh 4</h3></a>
                             </div>
                             <div class="avatar">
-                                <a href="#back_down" class="back_down" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-4.png" class="img-responsive mauto" alt=""/></a>
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-4" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-4.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -397,6 +397,198 @@
                                     <div class="tcb-item-title">Thầy Nguyễn Thành Công</div>
                                     <div class="tcb-item-des">
                                         Thủ lĩnh "soái ca vui tính" cực hài hước, hóm hỉnh nhưng chi tiết, tỉ mỉ khiến đối phương dễ phải lòng môn Sinh học.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta-1">
+                        <button class="hvr-float-shadow modal_open bgcta" data-dismiss="modal">
+                            <span class="span2">Đóng</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade trai-chien-binh" id="trai-chien-binh-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="tcb-pd">
+                        <div class="tcb-title">TRẠI CHIẾN BINH 2</div>
+                        <div class="tcb-des">
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/vkn.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Vũ Khắc Ngọc</div>
+                                    <div class="tcb-item-des">
+                                        Vị thủ lĩnh nắm giữ nhiều "vitamin" chống buồn ngủ, kiến thức sâu rộng và đoán đề cực kì chính xác.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/nbt.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Nguyễn Bá Tuấn</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh tiên phong trong các phương pháp có 1-0-2 hạ gục Toán trắc nghiệm trong tíc tắc.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/dnh.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Đỗ Ngọc Hà</div>
+                                    <div class="tcb-item-des">
+                                        Với thuật biến hóa siêu dzị, ai là chiến binh của vị thủ lĩnh này sẽ có khả năng tư duy cực "truất" các bài tập khó của Vật Lí.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/ddh.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Đinh Đức Hiền</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh có biệt hiệu "Bao công" và có biệt tài truyền cảm hứng trong từng bài giảng, giúp học sinh đam mê môn Sinh học.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta-1">
+                        <button class="hvr-float-shadow modal_open bgcta" data-dismiss="modal">
+                            <span class="span2">Đóng</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade trai-chien-binh" id="trai-chien-binh-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="tcb-pd">
+                        <div class="tcb-title">TRẠI CHIẾN BINH 3</div>
+                        <div class="tcb-des">
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/lat.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Lê Anh Tuấn</div>
+                                    <div class="tcb-item-des">
+                                        Là thủ lĩnh "soái ca bụng bự"  với khả năng thiên biến vạn hóa trong việc sáng tạo những cách giải Toán "Hay - Độc - Lạ".
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/ttt.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Cô Trịnh Thu Tuyết</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh nữ quyền lực bậc nhất với trí tuệ vô song, có khả năng giúp học sinh cảm thụ văn học và lập luận phân tích.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/pth.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Phạm Trọng Hiếu</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh có tài năng đặc biệt truyền cảm hứng cho các chiến binh thành thạo ngôn ngữ tiếng Anh.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/tvn.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Trần Văn Năng</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh nghiêm nghị nhưng cực tình cảm, nếu cần lời khuyên về cuộc sống, về xã hội, thì đây chính là điểm tựa của các chiến binh.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta-1">
+                        <button class="hvr-float-shadow modal_open bgcta" data-dismiss="modal">
+                            <span class="span2">Đóng</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade trai-chien-binh" id="trai-chien-binh-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="tcb-pd">
+                        <div class="tcb-title">TRẠI CHIẾN BINH 4</div>
+                        <div class="tcb-des">
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/pt.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Phạm Tuấn</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh trẻ nhất và mới nhất trong số các thủ lĩnh, người cực tâm lí có khả năng khiến bạn say môn Toán.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/td.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Trần Đức</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh cực ngầu với châm ngôn "Vật chết môn Lí", sẵn sàng cung cấp nhiều kĩ năng chuyên biệt cho các chiến binh.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/ntt.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy Nguyễn Thanh Tùng</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh nam thần sở hữu giọng ca đẹp cùng vũ khí cực phẩm "Sơ đồ tư duy" xử đẹp toàn bộ môn Toán.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/hf.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Cô Hương Fiona</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh thiên thần sở hữu chất giọng ngọt ngào, không những xinh đẹp mà còn có biệt tài giúp các chiến binh có thêm một ngôn ngữ.
                                     </div>
                                 </div>
 
