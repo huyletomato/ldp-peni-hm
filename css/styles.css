@@ -367,19 +367,20 @@ header .slogan_main {
 }
 .gioi-thieu-thay-co .slick-next,
 .gioi-thieu-thay-co .slick-prev {
-    width: 64px;
-    height: 77px;
+    width: 63px;
+    height: 93px;
     z-index: 99;
+    top: 61%;
 }
 .gioi-thieu-thay-co .slick-prev:before,
 .gioi-thieu-thay-co .slick-next:before {
     display: none;
 }
 .gioi-thieu-thay-co .slick-prev {
-    background: url("../images/prev.png") center no-repeat;
+    background: url("../images/prev2.png") center no-repeat;
 }
 .gioi-thieu-thay-co .slick-next {
-    background: url("../images/next.png") center no-repeat;
+    background: url("../images/next2.png") center no-repeat;
 }
 .gioi-thieu-thay-co .max-width {
     max-width: 1100px;
@@ -402,7 +403,7 @@ header .slogan_main {
 }
 .gioi-thieu-thay-co .text h3 {
     color: #ff1200;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 6px;
     text-transform: uppercase;
     font-family: 'Roboto';
@@ -573,6 +574,11 @@ main .modal-body {
     padding: 65px 60px 60px 50px;
     margin: 0 auto;
     margin-top: -10px;
+}
+.wpcf7-mail-sent-ok{
+    color: green;
+    position: absolute;
+    bottom: 110px;
 }
 .register form .form-control {
     height: 50px;
@@ -987,11 +993,6 @@ main .modal-body {
     bottom: -55px;
     position: absolute;
 }
-.wpcf7-mail-sent-ok{
-    color: green;
-    position: absolute;
-    bottom: 110px;
-}
 .gioi-thieu-thay-co:after{
     content: '';
     background: url(../images/thang-3.png) no-repeat;
@@ -1082,14 +1083,14 @@ main .modal-body {
     font-size: 24px;
 }
 .slick-prev {
-    left: -40px;
+    left: -70px;
     background: url("../images/prev.png") no-repeat;
     width: 38px;
     height: 44px;
     opacity: 0.8;
 }
 .slick-next {
-    right: -40px;
+    right: -70px;
     background: url("../images/next.png") no-repeat;
     width: 38px;
     height: 44px;
@@ -1097,10 +1098,10 @@ main .modal-body {
 }
 
 .slick-prev:hover, .slick-prev:focus{
-    background: url("../images/prev.png") center no-repeat;
+    /*background: url("../images/prev.png") center no-repeat;*/
 }
 .slick-next:hover, .slick-next:focus {
-    background: url("../images/next.png") center no-repeat;
+    /*background: url("../images/next.png") center no-repeat;*/
 }
 .slick-prev:hover, .slick-next:hover{
     opacity: 1;
@@ -1135,6 +1136,9 @@ main .modal-body {
     background: none;
     border: none;
     padding: 15px;
+}
+.register .cta-1 .span2:focus {
+    outline: 0;
 }
 .wpcf7-form-control-wrap {
     position: relative;
@@ -1293,9 +1297,6 @@ main .modal-body {
     }
 }
 @media screen and (max-width: 767px) {
-    .wpcf7-mail-sent-ok{
-        bottom: 90px;
-    }
     .bg-title-re {
         width: 100%;
         background-size: 600px 100%;

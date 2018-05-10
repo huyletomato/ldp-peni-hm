@@ -267,7 +267,7 @@
                 </div>
             </div>
             <div class="row max-width">
-                <div class="">
+                <div class="multiple5">
                     <div class="col-sm-6 col-md-3">
                         <div class="box-thay-co">
                             <div class="text">
@@ -305,6 +305,16 @@
                             </div>
                             <div class="avatar">
                                 <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-4" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-4.png" class="img-responsive mauto" alt=""/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="box-thay-co">
+                            <div class="text">
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-5" title=""><h3>trại chiến binh 5</h3></a>
+                            </div>
+                            <div class="avatar">
+                                <a href="#" class="back_down" data-toggle="modal" data-target="#trai-chien-binh-5" title=""><img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/trai-cb-5.png" class="img-responsive mauto" alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -592,6 +602,58 @@
                                     </div>
                                 </div>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta-1">
+                        <button class="hvr-float-shadow modal_open bgcta" data-dismiss="modal">
+                            <span class="span2">Đóng</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade trai-chien-binh" id="trai-chien-binh-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="tcb-pd">
+                        <div class="tcb-title">TRẠI CHIẾN BINH 5</div>
+                        <div class="tcb-des">
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/ltth.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">cô lê thị thu hương</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh trẻ nhất và mới nhất trong số các thủ lĩnh, người cực tâm lí có khả năng khiến bạn say môn Toán.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/phc.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy phạm hữu cường</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh cực ngầu với châm ngôn "Vật chết môn Lí", sẵn sàng cung cấp nhiều kĩ năng chuyên biệt cho các chiến binh.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcb-item">
+                                <div class="tcb-item-avatar">
+                                    <img src="<?php echo plugin_dir_url( __FILE__ ) ?>images/nmh.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="tcb-right">
+                                    <div class="tcb-item-title">Thầy nguyễn mạnh hà</div>
+                                    <div class="tcb-item-des">
+                                        Thủ lĩnh nam thần sở hữu giọng ca đẹp cùng vũ khí cực phẩm "Sơ đồ tư duy" xử đẹp toàn bộ môn Toán.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

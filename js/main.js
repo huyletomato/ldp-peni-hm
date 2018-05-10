@@ -133,57 +133,59 @@ $(document).ready(function(){
 
 
 
-    $('.multiple6').slick({
-        infinite: true,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        dots: false,
-        autoplay: true,
-        autoplaySpeed: 4500,
-        speed: 500,
-        prevArrow: '<button type="button" data-role="none" class="slick-prev slick-prev6" aria-label="Previous" tabindex="0" role="button">Previous</button>',
-        nextArrow: '<button type="button" data-role="none" class="slick-next slick-next6" aria-label="Next" tabindex="0" role="button">Next</button>',
-        responsive: [
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1
-                }
-            },
+    if($( window ).width() > 768){
+        $('.multiple5').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: false,
+            autoplay: true,
+            autoplaySpeed: 4500,
+            speed: 500,
+            prevArrow: '<button type="button" data-role="none" class="slick-prev slick-prev5" aria-label="Previous" tabindex="0" role="button">Previous</button>',
+            nextArrow: '<button type="button" data-role="none" class="slick-next slick-next5" aria-label="Next" tabindex="0" role="button">Next</button>',
+            responsive: [
+                {
+                    breakpoint: 1199,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
 
-            {
-                breakpoint: 640,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
+            ]
 
-    });
-    $('.slick-prev6').click(function(e){
-        e.preventDefault();
-        $('.single_slider_next').click();
-    });
-    $('.slick-next6').click(function(e){
-        e.preventDefault();
-        $('.single_slider_prev').click();
-    });
+        });
+        $('.slick-prev5').click(function(e){
+            e.preventDefault();
+            $('.single_slider_next').click();
+        });
+        $('.slick-next5').click(function(e){
+            e.preventDefault();
+            $('.single_slider_prev').click();
+        });
+    }
 
     // setTimeout(function(){
     //     $('#myModal-thong-bao').modal('show');
