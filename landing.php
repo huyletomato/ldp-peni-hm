@@ -82,7 +82,7 @@
                                             <span>CÁC THẦN TƯỢNG</span>
                                         </div>
                                         <div class="des">
-                                            Nhận tư vấn các thông tin hữu ích cho kỳ thi THPT quốc gia; Giải câu đố nhận chìa khóa vàng tri thức; Chụp ảnh & xin chữ ký
+                                            Được thầy cô tư vấn các thông tin hữu ích cho kỳ thi THPT quốc gia; Giải câu đố và nhận chìa khóa vàng từ thầy cô; Chụp ảnh cùng thần tượng và xin chữ ký
                                         </div>
                                     </div>
                                 </div>

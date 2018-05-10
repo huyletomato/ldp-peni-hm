@@ -71,7 +71,7 @@ class PageTemplater {
 
         // Add your templates to this array.
         $this->templates = array(
-            'landing.php' => 'Landing Page',
+            'landing.php' => 'Landing Page PENI 2019',
         );
 
     }
